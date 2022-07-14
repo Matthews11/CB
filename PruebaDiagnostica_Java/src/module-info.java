@@ -1,0 +1,2 @@
+module PruebaDiagnostica_Java {
+}
