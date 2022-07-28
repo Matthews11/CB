@@ -9,7 +9,6 @@ public class Empleado extends Persona{
         super(nombre);
         this.idEmpleado=++contador;
         this.sueldo=sueldo;
-
     }
 
     public int getIdEmpleado() {
