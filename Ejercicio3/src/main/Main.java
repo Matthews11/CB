@@ -11,7 +11,6 @@ public class Main {
     private static final CatalogoPeliculas cp = new CatalogoPeliculasImpl();
     private static final int opcion=-1;
     private static final String nombreArchivo="";
-
     public static void main(String[] args) {
 
 

@@ -33,7 +33,6 @@ public class AccesoDatosImpl implements AccesoDatos{
             entrada.close();
         }catch (IOException ex){
             ex.printStackTrace();
-
         }
         return peliculas;
     }
@@ -45,7 +44,7 @@ public class AccesoDatosImpl implements AccesoDatos{
             PrintWriter salida = new PrintWriter(new FileWriter(archivo,anexar));
             salida.println(pelicula.toString());
             salida.close();
-            System.out.println("Se ha escrito correctamente el archivo");
+            System.out.println("Se ha escrito correctamente "+pelicula);
         }catch (IOException ex){
             ex.printStackTrace();
 
@@ -55,16 +54,50 @@ public class AccesoDatosImpl implements AccesoDatos{
 
     @Override
     public String buscar(String nombreArchivo, String buscar) throws LecturaDatosEx {
-        return null;
+        File archivo = new File(nombreArchivo);
+        String resultado = null;
+        try{
+            BufferedReader entrada = new BufferedReader(new FileReader(archivo));
+            String linea = null;
+            linea = entrada.readLine();
+            int indice=1;
+            while(linea !=null){
+                if(buscar!=null && buscar.equals(linea) ){
+                    resultado="Pelicula "+linea+" encontrada en el indice"+indice;
+                    break;
+                }
+                linea = entrada.readLine();
+                indice++;
+            }
+            entrada.close();
+        }catch (IOException ex){
+            ex.printStackTrace();
+        }
+
+        return resultado;
     }
 
     @Override
     public void crear(String nombreArchivo) throws AccesoDatosEx {
+        File archivo = new File(nombreArchivo);
+        try {
+            PrintWriter salida = new PrintWriter(new FileWriter(archivo));
+            salida.println("Se ha creado correctamente");
+        }catch (IOException ex){
+            ex.printStackTrace();
+        }
 
     }
 
     @Override
     public void borrrar(String nombreArchivo) throws AccesoDatosEx {
+        File archivo = new File(nombreArchivo);
+        if(archivo.exists()){
+            archivo.delete();
+        }else {
+            throw new AccesoDatosEx("No se borro la pelicula porque no existe ");
+        }
+
 
     }
 }

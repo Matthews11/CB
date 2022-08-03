@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e779d53a-aaeb-4c62-8bd3-d347af953116" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Archivos/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Archivos/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Archivos/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Archivos/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Archivos/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Archivos/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Archivos/Archivos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Archivos/Archivos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Archivos/src/utileria/Archivos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Archivos/src/utileria/Archivos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gm/peliculas/datos/AccesoDatosImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gm/peliculas/datos/AccesoDatosImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gm/peliculas/negocio/CatalogoPeliculasImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gm/peliculas/negocio/CatalogoPeliculasImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaDiagnostica_Java/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaDiagnostica_Java/.classpath" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e779d53a-aaeb-4c62-8bd3-d347af953116" name="Changes" comment="" />
+      <created>1659135562504</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659135562504</updated>
+      <workItem from="1659135563751" duration="638000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
