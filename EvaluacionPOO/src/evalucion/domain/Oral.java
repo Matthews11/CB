@@ -2,15 +2,17 @@ package evalucion.domain;
 
 public class Oral extends Examen{
 
-    private String satisfaccion;
+    private Satisfaccion satisfaccion;
 
-    public Oral(String satisfaccion, String fecha){
+    public Oral(){}
+
+    public Oral(Satisfaccion satisfaccion, String fecha){
         super(fecha);
         this.satisfaccion=satisfaccion;
     }
     @Override
     public int verificar() {
-        if (satisfaccion.equals("suficiente")|| satisfaccion.equals("excelente")) {
+        if (satisfaccion.name()=="Suficiente"|| satisfaccion.name()=="Excelente") {
             return 1;
         }else{
             return 0;

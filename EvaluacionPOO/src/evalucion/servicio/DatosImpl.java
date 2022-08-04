@@ -32,6 +32,7 @@ public class DatosImpl implements IDatos{
         if (alumnos.isEmpty()){
             System.out.println("Error");
             throw new LecturaEx("La lista esta vacia");
+
         } else {
             for (int i = 0; i < alumnos.size(); i++) {
                 if (alumnos.get(i).getOral().verificar()>=1 &&alumnos.get(i).getExamenEscrito().verificar()>0){

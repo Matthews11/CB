@@ -7,9 +7,7 @@ public class Alumno {
     private String nombre;
     private String apellido;
     private final Escrito examenEscrito;
-    private Oral oral;
-
-    private static  int contadorAprobados=0;
+    private final Oral oral;
 
 
     public Alumno(String dui, String nombre, String apellido, Escrito examenEscrito , Oral oral) throws AccesoDatosEx {
@@ -52,9 +50,6 @@ public class Alumno {
         return oral;
     }
 
-    public void setOral(Oral oral) {
-        this.oral = oral;
-    }
 
     @Override
     public String toString() {

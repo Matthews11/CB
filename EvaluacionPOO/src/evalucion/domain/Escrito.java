@@ -8,7 +8,6 @@ public class Escrito extends Examen {
     private int duracion;
     private int nota;
 
-    private static int contadorAprobado;
 
     public Escrito(){
 
@@ -17,6 +16,7 @@ public class Escrito extends Examen {
     public Escrito(int duracion, int nota, String fecha) throws AccesoDatosEx {
         super(fecha);
         if (duracion<0 && nota<0){throw new EscrituraEx("ingrese valores positivos");}
+        if(nota>11){throw new EscrituraEx("la nota debe ser entre 0-10");}
         this.duracion = duracion;
         this.nota = nota;
     }

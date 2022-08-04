@@ -11,7 +11,10 @@ public class Main {
     private static int opcion=-1;
     private static Scanner leer = new Scanner(System.in);
 
+    private static  Satisfaccion [] nivel = Satisfaccion.values();
+
     public static void main(String[] args) throws AccesoDatosEx {
+        try{
         while (opcion!=0) {
             System.out.println("1. agregar alumno\n" +
                     "2. listar los aprobados\n" +
@@ -24,8 +27,10 @@ public class Main {
                     System.out.println("\nIngrese la fecha del examen oral");
                     String f=leer.nextLine().trim();
 
-                    System.out.println("\nIngrese la satisfaccion del examen oral (insuficiente, suficiente o excelente)");
+                    System.out.println("\nIngrese la satisfaccion del examen oral (1. insuficiente, 2. suficiente 3. excelente)");
                     String s=leer.nextLine().trim();
+                    Satisfaccion satisfaccion = nivel[Integer.parseInt(s)-1];
+                    System.out.println(satisfaccion.ordinal());
 
                     System.out.println("\nIngrese la cantidad de tiempo que se tardo realizando el examen escrito");
                     int t= Integer.parseInt(leer.nextLine());
@@ -45,7 +50,7 @@ public class Main {
                     System.out.println("\nIngrese el apellido ");
                     String a=leer.nextLine().trim();
 
-                    Oral oral = new Oral(s, f);
+                    Oral oral = new Oral(satisfaccion, f);
                     Escrito escrito = new Escrito(t, n,f2);
                     Alumno alumno = new Alumno(d, no, a, escrito, oral);
 
@@ -63,6 +68,10 @@ public class Main {
                     break;
                 }
            }
+        }catch (AccesoDatosEx ex){
+            System.out.println("ocurrio un error");
+            ex.printStackTrace();
         }
     }
+}
 
