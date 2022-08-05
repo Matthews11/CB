@@ -1,7 +1,10 @@
 package gm.peliculas.excepciones;
 
+
 public class AccesoDatosEx extends Exception{
-    public AccesoDatosEx(String nombre){
-        super(nombre);
+    String mensaje;
+    public AccesoDatosEx(String mensaje){
+
+        this.mensaje= mensaje;
     }
 }

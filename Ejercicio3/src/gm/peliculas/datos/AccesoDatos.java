@@ -20,4 +20,5 @@ public interface AccesoDatos {
     void crear(String nombreArchivo)throws AccesoDatosEx;
 
     void borrrar(String nombreArchivo)throws AccesoDatosEx;
+
 }

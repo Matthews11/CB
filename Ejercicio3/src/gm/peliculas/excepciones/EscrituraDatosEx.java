@@ -2,7 +2,7 @@ package gm.peliculas.excepciones;
 
 public class EscrituraDatosEx extends AccesoDatosEx{
 
-    public EscrituraDatosEx(String nombre){
-        super(nombre);
+    public EscrituraDatosEx(String mensaje){
+        super(mensaje);
     }
 }
