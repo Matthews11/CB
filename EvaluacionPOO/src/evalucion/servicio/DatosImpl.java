@@ -1,34 +1,48 @@
 package evalucion.servicio;
 
-import evalucion.domain.Alumno;
+import evalucion.domain.*;
 import evalucion.exception.AccesoDatosEx;
 import evalucion.exception.EscrituraEx;
 import evalucion.exception.LecturaEx;
 
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
 public class DatosImpl implements IDatos{
 
-    private List<Alumno> alumnos;
     private static int total;
 
-    public DatosImpl(){
-        this.alumnos= new ArrayList<>();
-    }
 
     @Override
-    public void agregarAlumnos(Alumno alumno) throws EscrituraEx {
-        if (alumno == null){
-            throw new EscrituraEx("el objeto esta vacio\n ");
+    public boolean existe(String nombreArchivo) throws AccesoDatosEx {
+        File archivo= new File(nombreArchivo);
+        return archivo.exists();
+    }
+    @Override
+    public void escribir(Alumno alumno, String nombreArchivo, boolean anexar) throws EscrituraEx {
+
+        try{
+            OutputStream file = new FileOutputStream(nombreArchivo);
+            OutputStream buffer = new BufferedOutputStream(file);
+            ObjectOutput output = new ObjectOutputStream(buffer);
+
+            output.writeObject(new Alumno(alumno.getDui(),alumno.getNombre(),alumno.getApellido(),
+            alumno.getExamenEscrito(),alumno.getOral()));
+            output.close();
+            buffer.close();
+            System.out.println("Se guardo correctamente");
+        }catch (IOException ex){
+            ex.printStackTrace();
+        } catch (AccesoDatosEx e) {
+            throw new RuntimeException(e);
         }
-        alumnos.add(alumno);
-        System.out.println("Se agrego correctamente\n");
+
     }
 
     @Override
-    public int aprobados()throws  LecturaEx {
-        total=0;
+    public int aprobados(String nombreArchivo)throws  LecturaEx {
+        List<Alumno> alumnos = listar(nombreArchivo);
         if (alumnos.isEmpty()){
             System.out.println("Error");
             throw new LecturaEx("La lista esta vacia");
@@ -43,15 +57,47 @@ public class DatosImpl implements IDatos{
             System.out.println("El total de aprobados es: " + total);
         } return total;
     }
-    @Override
-    public void listar() throws LecturaEx {
 
-        if (alumnos.isEmpty()){
-            System.out.println("Error");
-            throw new LecturaEx("La lista esta vacia");
+
+
+    @Override
+    public List<Alumno> listar(String nombre) throws LecturaEx {
+        List<Alumno> alumnos = new ArrayList<>();
+        try {
+            FileInputStream ficheroEntrada = new FileInputStream(nombre);
+            ObjectInputStream objetoEntrada = new ObjectInputStream(ficheroEntrada);
+            Alumno alumno = (Alumno) objetoEntrada.readObject();
+            alumnos.add(alumno);
+            objetoEntrada.close();
+        } catch (IOException exception) {
+            exception.printStackTrace();
+            throw new RuntimeException(exception);
+
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+            throw new RuntimeException(e);
         }
-        for (Alumno alumno:alumnos) {
-            System.out.println(alumno);
+        return alumnos;
+    }
+
+
+        @Override
+    public void crear(String nombreArchivo) throws AccesoDatosEx {
+        File archivo = new File(nombreArchivo);
+        try{
+            PrintWriter salida = new PrintWriter(new FileWriter(archivo));
+            salida.close();
+            System.out.println("Se creo correctamente el archivo");
+        }catch (IOException e){
+            e.printStackTrace();
         }
     }
+
+    @Override
+    public void borrrar(String nombreArchivo) throws AccesoDatosEx {
+        File archivo = new File(nombreArchivo);
+        archivo.delete();
+        System.out.println("Se ha borrado el archivo correctamente");
+    }
+
 }

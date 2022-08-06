@@ -2,27 +2,37 @@ package main;
 
 import evalucion.domain.*;
 import evalucion.exception.*;
+import evalucion.negocio.Graduacion;
+import evalucion.negocio.GraduacionImpl;
 import evalucion.servicio.*;
 
 import java.util.Scanner;
 
 public class Main {
-    private static IDatos datos = new DatosImpl();
+    private static Graduacion datos = new GraduacionImpl();
     private static int opcion=-1;
     private static Scanner leer = new Scanner(System.in);
+
+    private static final String NOMBRE_ARCHIVO="/home/kraus/alumnos.txt";
 
     private static  Satisfaccion [] nivel = Satisfaccion.values();
 
     public static void main(String[] args) throws AccesoDatosEx {
         try{
         while (opcion!=0) {
-            System.out.println("1. agregar alumno\n" +
-                    "2. listar los aprobados\n" +
-                    "3. listar todos los alumnos\n" +
+            System.out.println("1. iniciar comprobacion \n" +
+                    "2. agregar alumno\n" +
+                    "3. listar los aprobados\n" +
+                    "4. listar todos los alumnos\n"  +
                     "0. salir \n");
                 opcion= Integer.parseInt(leer.nextLine());
             switch (opcion) {
+
                 case 1:
+                    datos.iniciarArchivo(NOMBRE_ARCHIVO);
+                break;
+
+                case 2:
 
                     System.out.println("\nIngrese la fecha del examen oral");
                     String f=leer.nextLine().trim();
@@ -54,11 +64,13 @@ public class Main {
                     Escrito escrito = new Escrito(t, n,f2);
                     Alumno alumno = new Alumno(d, no, a, escrito, oral);
 
-                    datos.agregarAlumnos(alumno);
+                    datos.agregarAlumno(alumno,NOMBRE_ARCHIVO);
                 break;
-                case 2: datos.aprobados();
+                case 3:
+
+                    datos.aprobados(NOMBRE_ARCHIVO);
                 break;
-                case 3: datos.listar();
+                case 4: datos.listarAlumnos(NOMBRE_ARCHIVO);
                 break;
                 case 0:
                     System.out.println("Salu pa");

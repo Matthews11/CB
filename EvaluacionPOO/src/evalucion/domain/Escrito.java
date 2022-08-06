@@ -3,7 +3,9 @@ package evalucion.domain;
 import evalucion.exception.AccesoDatosEx;
 import evalucion.exception.EscrituraEx;
 
-public class Escrito extends Examen {
+import java.io.Serializable;
+
+public class Escrito extends Examen implements Serializable {
 
     private int duracion;
     private int nota;
@@ -20,6 +22,7 @@ public class Escrito extends Examen {
         this.duracion = duracion;
         this.nota = nota;
     }
+
 
     public int getDuracion() {
         return duracion;
@@ -47,8 +50,8 @@ public class Escrito extends Examen {
 
     @Override
     public String toString() {
-        return "Examen escrito: " +
-                "duracion=" + duracion +
-                ", nota=" + nota +" "+super.toString() ;
+        return "Examen escrito:\n" +
+                ", duracion:" + duracion +
+                ", nota:" + nota +", "+super.toString() ;
     }
 }
