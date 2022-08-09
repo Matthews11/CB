@@ -1,8 +1,6 @@
 package evalucion.domain;
 
-import java.io.Serializable;
-
-public abstract class Examen implements Serializable {
+public abstract class Examen {
     protected String fecha;
 
     protected Examen() {

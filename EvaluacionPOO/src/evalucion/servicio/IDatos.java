@@ -1,20 +1,14 @@
 package evalucion.servicio;
 
 import evalucion.domain.Alumno;
-import evalucion.exception.*;
+import evalucion.exception.EscrituraEx;
+import evalucion.exception.LecturaEx;
 
 import java.util.List;
 
 public interface IDatos {
+    void agregarAlumnos(Alumno alumno) throws EscrituraEx;
+    int aprobados() throws LecturaEx;
 
-    int aprobados(String nombreArchivo) throws LecturaEx;
-
-    boolean existe(String nombreArchivo) throws AccesoDatosEx;
-
-    List<Alumno> listar(String nombre)throws LecturaEx;
-
-    void escribir(Alumno alumno, String nombreArchivo, boolean anexar)throws EscrituraEx;
-    void crear(String nombreArchivo)throws AccesoDatosEx;
-
-    void borrrar(String nombreArchivo)throws AccesoDatosEx;
+    void listar()throws LecturaEx;
 }

@@ -1,8 +1,6 @@
 package evalucion.domain;
 
-import java.io.Serializable;
-
-public class Oral extends Examen implements Serializable {
+public class Oral extends Examen{
 
     private Satisfaccion satisfaccion;
 
@@ -23,8 +21,7 @@ public class Oral extends Examen implements Serializable {
 
     @Override
     public String toString() {
-        return
-                "Examen oral: \n" +
-                        ", satisfaccion:" + satisfaccion +", "+super.toString() ;
+        return " Examen oral: " +
+                "satisfaccion=" + satisfaccion +" "+super.toString() ;
     }
 }

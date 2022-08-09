@@ -6,13 +6,17 @@ import evalucion.exception.LecturaEx;
 import evalucion.servicio.DatosImpl;
 import evalucion.servicio.IDatos;
 
+import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
-public class GraduacionImpl implements Graduacion{
+public class AccionesImpl implements Acciones {
 
     private final IDatos datos;
 
-    public GraduacionImpl(){
+    List<Alumno> lista = new ArrayList<>();
+
+    public AccionesImpl(){
         this.datos=new DatosImpl();
     }
 
@@ -20,8 +24,13 @@ public class GraduacionImpl implements Graduacion{
     public void agregarAlumno(Alumno alumno, String nombreArchivo) throws AccesoDatosEx {
         boolean anexar = false;
         try {
+
+
+            lista.add(alumno);
             anexar = datos.existe(nombreArchivo);
-            datos.escribir(alumno,nombreArchivo,anexar);
+            datos.escribir(alumno,nombreArchivo,anexar,lista);
+
+
         }catch (AccesoDatosEx ex){
             System.out.println("Error de acceso a datos");
             ex.printStackTrace();

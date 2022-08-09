@@ -2,23 +2,21 @@ package evalucion.domain;
 
 import evalucion.exception.AccesoDatosEx;
 
-import java.io.Serializable;
-
-public class Alumno implements Serializable {
+public class Alumno {
     private String dui;
     private String nombre;
     private String apellido;
     private final Escrito examenEscrito;
     private final Oral oral;
 
+
     public Alumno(String dui, String nombre, String apellido, Escrito examenEscrito , Oral oral) throws AccesoDatosEx {
         this.dui = dui;
         this.nombre = nombre;
         this.apellido = apellido;
-        this.examenEscrito =examenEscrito;
+        this.examenEscrito =  examenEscrito;
         this.oral=oral;
     }
-
 
     public String getDui() {
         return dui;
@@ -55,11 +53,12 @@ public class Alumno implements Serializable {
 
     @Override
     public String toString() {
-        return "dui: " + dui +
-                ", nombre:" + nombre  +
-                ", apellido: " + apellido  +
-                " \n" + examenEscrito +
-                " \n" + oral +
+        return "Alumno: " +
+                "dui=" + dui +
+                " nombre=" + nombre  +
+                ", apellido=" + apellido  +
+                ", \n" + examenEscrito +
+                ", \n" + oral +
                 '\n';
     }
 }

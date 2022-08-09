@@ -4,7 +4,7 @@ import evalucion.domain.Alumno;
 import evalucion.exception.AccesoDatosEx;
 import evalucion.exception.LecturaEx;
 
-public interface Graduacion {
+public interface Acciones {
 
     void agregarAlumno(Alumno alumno, String nombreArchivo) throws AccesoDatosEx;
 

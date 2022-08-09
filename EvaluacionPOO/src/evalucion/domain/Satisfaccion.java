@@ -1,8 +1,6 @@
 package evalucion.domain;
 
-import java.io.Serializable;
-
-public enum Satisfaccion implements Serializable {
+public enum Satisfaccion {
      Insuficente("insuficente"),Suficiente("suficiente"),Excelente("excelente");
 
     private String satisfaccion;
