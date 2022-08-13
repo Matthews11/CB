@@ -14,7 +14,7 @@ public class Conexion {
     private static String JDBC_PASS="12345";
     private static BasicDataSource pool;
 
-    public static BasicDataSource getInstance() throws SQLException {
+    public static BasicDataSource getInstance()  {
         if (pool == null){
             pool = new BasicDataSource();
             pool.setUrl(url);

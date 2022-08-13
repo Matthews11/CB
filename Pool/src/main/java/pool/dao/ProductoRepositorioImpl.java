@@ -20,8 +20,7 @@ public class ProductoRepositorioImpl implements Repositorio<Producto>{
         try(Connection con = getConnection();
             Statement st = con.createStatement();
             ResultSet rs = st.executeQuery("SELECT p.* , c.nombre as categoria" +
-                    " from productos as p inner join categorias as c on (p.idc =c.id)")){
-
+                    " from productos as p inner join categorias as c on (p.idc =c.id)")) {
             while (rs.next()){
                 Producto p = crearProducto(rs);
                 productos.add(p);
