@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfa28e39-c745-43c1-a922-bed6daf1fb51" name="Changes" comment="">
+    <list default="true" id="0784b5eb-a068-419d-9adb-4d975f4a0bbf" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_19_4.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_29.xml" afterDir="false" />
@@ -12,23 +12,23 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_10_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/PTS.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Pool_Trans/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Pool_Trans/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../app/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/.idea/dataSources/07bb532e-9d3e-4aec-8dbb-d5cf0a7df350.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/.idea/dataSources/07bb532e-9d3e-4aec-8dbb-d5cf0a7df350/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/.idea/dataSources/07bb532e-9d3e-4aec-8dbb-d5cf0a7df350/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/.idea/dataSources/07bb532e-9d3e-4aec-8dbb-d5cf0a7df350/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/.idea/dataSources/07bb532e-9d3e-4aec-8dbb-d5cf0a7df350/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../app/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../app/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_19_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/.idea/libraries/Maven__org_apache_commons_commons_dbcp2_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_10_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../app/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../app/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../app/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/app.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../app/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dao/CategoriaRepositorioImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dao/Conexion.java" afterDir="false" />
@@ -44,14 +44,72 @@
       <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dto/Sesion.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dto/UP.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dto/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/main/M2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/main/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/servicio/AdministracionServicioImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/servicio/ArticulosServicioImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/servicio/IAdministracionServicio.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/servicio/IArticulosServicio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/dao/CategoriaRepositorioImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/dao/Conexion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/dao/IRepositorio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/dao/ProductoRepositorioImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/dao/RolRepositorioImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/dao/SesionRepositorioImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/dao/UPRepositorioImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/dao/UsuarioRepositorioImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/dto/Categoria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/dto/Producto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/dto/Rol.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/dto/Sesion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/dto/UP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/dto/Usuario.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/main/M2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/main/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/servicio/AdministracionServicioImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/servicio/ArticulosServicioImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/servicio/IAdministracionServicio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/servicio/IArticulosServicio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosPTS/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosPTS/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosPTS/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosPTS/.idea/dataSources/570477e8-dcc2-494e-b558-883d5f1c3256/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosPTS/.idea/dataSources/570477e8-dcc2-494e-b558-883d5f1c3256/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosPTS/.idea/dataSources/570477e8-dcc2-494e-b558-883d5f1c3256/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosPTS/.idea/dataSources/570477e8-dcc2-494e-b558-883d5f1c3256/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosPTS/.idea/dataSources/a3f2206b-64fb-4185-970f-f8f1a440c526.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosPTS/.idea/dataSources/a3f2206b-64fb-4185-970f-f8f1a440c526/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosPTS/.idea/dataSources/a3f2206b-64fb-4185-970f-f8f1a440c526/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosPTS/.idea/dataSources/a3f2206b-64fb-4185-970f-f8f1a440c526/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosPTS/.idea/dataSources/a3f2206b-64fb-4185-970f-f8f1a440c526/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosPTS/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosPTS/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosPTS/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosPTS/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosPTS/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosPTS/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosPTS/src/main/java/com/app/usuario/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosPTS/src/main/java/com/app/usuario/dao/Conexion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosPTS/src/main/java/com/app/usuario/dao/IUsuarioRespositorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosPTS/src/main/java/com/app/usuario/dao/UsuarioRepositorioImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosPTS/src/main/java/com/app/usuario/dto/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosPTS/src/main/java/com/app/usuario/service/AdministracionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosPTS/src/main/java/com/app/usuario/service/IAdministracionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosPTS/target/classes/com/app/usuario/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosPTS/target/classes/com/app/usuario/dao/Conexion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosPTS/target/classes/com/app/usuario/dao/IUsuarioRespositorio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosPTS/target/classes/com/app/usuario/dao/UsuarioRepositorioImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosPTS/target/classes/com/app/usuario/dto/Usuario.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosPTS/target/classes/com/app/usuario/service/AdministracionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosPTS/target/classes/com/app/usuario/service/IAdministracionService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pool/dao/Conexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pool/dao/Conexion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pool/dao/ProductoIRepositorioImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pool/dao/ProductoIRepositorioImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pool/dao/Conexion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pool/dao/Conexion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pool/dao/ProductoIRepositorioImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pool/dao/ProductoIRepositorioImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Pool_Trans/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Pool_Trans/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Pool_Trans/.idea/jarRepositories.xml" beforeDir="false" />
@@ -83,24 +141,76 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2DLclBdGLmVMRaJ0pO824xN3319" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pool.util.Main" />
+      <module name="PTS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pool.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cfa28e39-c745-43c1-a922-bed6daf1fb51" name="Changes" comment="" />
-      <created>1660442660140</created>
+      <changelist id="0784b5eb-a068-419d-9adb-4d975f4a0bbf" name="Changes" comment="" />
+      <created>1660445830446</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1660442660140</updated>
-      <workItem from="1660442661377" duration="592000" />
+      <updated>1660445830446</updated>
+      <workItem from="1660445831656" duration="502000" />
+      <workItem from="1660481959002" duration="1700000" />
+      <workItem from="1660505643383" duration="366000" />
+      <workItem from="1660515200074" duration="2809000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

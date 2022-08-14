@@ -7,11 +7,11 @@ import java.sql.SQLException;
 
 public class Conexion {
 
-    private static String url="jdbc:mysql://localhost:9999/hibernate?serverTimezone=America/El_Salvador";
+    private static String url="jdbc:mysql://localhost:3306/hibernate?serverTimezone=America/El_Salvador";
 
     private static String JDBC_USER="root";
 
-    private static String JDBC_PASS="12345";
+    private static String JDBC_PASS="1234";
     private static BasicDataSource pool;
 
     public static BasicDataSource getInstance() throws SQLException {

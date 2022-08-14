@@ -9,5 +9,8 @@
         <module name="PTS" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="PTS" target="18" />
+    </bytecodeTargetLevel>
   </component>
 </project>

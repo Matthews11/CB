@@ -11,9 +11,6 @@ public class ProductoIRepositorioImpl implements IRepositorio<Producto> {
 
     private Connection con;
 
-    public ProductoIRepositorioImpl(Connection con) throws SQLException {
-        this.con=con;
-    }
     public ProductoIRepositorioImpl() throws SQLException {
     }
 
@@ -99,7 +96,7 @@ public class ProductoIRepositorioImpl implements IRepositorio<Producto> {
         p.setNombre(rs.getString("nombre"));
         p.setPrecio(rs.getInt("precio"));
         p.setFecha(rs.getDate("fecha"));
-        p.setSku(rs.getString("sku"));
+      //  p.setSku(rs.getString("sku"));
         Categoria c = new Categoria();
         c.setId(rs.getLong("id"));
         c.setNombre(rs.getString("ca"));
