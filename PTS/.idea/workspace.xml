@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cfa28e39-c745-43c1-a922-bed6daf1fb51" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_19_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_dbcp2_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PTS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pool_Trans/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pool_Trans/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/.idea/dataSources/07bb532e-9d3e-4aec-8dbb-d5cf0a7df350.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/.idea/dataSources/07bb532e-9d3e-4aec-8dbb-d5cf0a7df350/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/.idea/dataSources/07bb532e-9d3e-4aec-8dbb-d5cf0a7df350/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/.idea/dataSources/07bb532e-9d3e-4aec-8dbb-d5cf0a7df350/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/.idea/dataSources/07bb532e-9d3e-4aec-8dbb-d5cf0a7df350/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dao/CategoriaRepositorioImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dao/Conexion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dao/IRepositorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dao/ProductoRepositorioImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dao/RolRepositorioImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dao/SesionRepositorioImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dao/UPRepositorioImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dao/UsuarioRepositorioImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dto/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dto/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dto/Rol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dto/Sesion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dto/UP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dto/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/servicio/AdministracionServicioImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/servicio/IAdministracionServicio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/servicio/IArticulosServicio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pool/dao/ProductoIRepositorioImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pool/dao/ProductoIRepositorioImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pool_Trans/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pool_Trans/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pool_Trans/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pool_Trans/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_19_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pool_Trans/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pool_Trans/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pool_Trans/.idea/libraries/Maven__org_apache_commons_commons_dbcp2_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pool_Trans/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pool_Trans/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pool_Trans/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pool_Trans/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pool_Trans/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pool_Trans/Pool_Trans.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pool_Trans/Pool_Trans.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cfa28e39-c745-43c1-a922-bed6daf1fb51" name="Changes" comment="" />
+      <created>1660442660140</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660442660140</updated>
+      <workItem from="1660442661377" duration="592000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
