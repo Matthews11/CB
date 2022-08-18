@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hibernateJPA" />
+        <module name="hibernateJPACriteria" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="hibernateJPA" target="18" />
+      <module name="hibernateJPACriteria" target="18" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -5,123 +5,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b39f5873-bf01-44a2-b2a7-eb497d6ec1ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../PTS/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_19_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PTS/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PTS/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PTS/.idea/libraries/Maven__org_apache_commons_commons_dbcp2_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PTS/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PTS/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PTS/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PTS/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PTS/PTS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pool_Trans/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pool_Trans/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_19_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/.idea/libraries/Maven__org_apache_commons_commons_dbcp2_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dao/CategoriaRepositorioImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dao/Conexion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dao/IRepositorio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dao/ProductoRepositorioImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dao/RolRepositorioImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dao/SesionRepositorioImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dao/UPRepositorioImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dao/UsuarioRepositorioImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dto/Categoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dto/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dto/Rol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dto/Sesion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dto/UP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/dto/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/main/M2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/servicio/AdministracionServicioImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/servicio/ArticulosServicioImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/servicio/IAdministracionServicio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/app/servicio/IArticulosServicio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/dao/CategoriaRepositorioImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/dao/Conexion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/dao/IRepositorio.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/dao/ProductoRepositorioImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/dao/RolRepositorioImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/dao/SesionRepositorioImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/dao/UPRepositorioImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/dao/UsuarioRepositorioImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/dto/Categoria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/dto/Producto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/dto/Rol.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/dto/Sesion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/dto/UP.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/dto/Usuario.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/main/M2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/main/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/servicio/AdministracionServicioImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/servicio/ArticulosServicioImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/servicio/IAdministracionServicio.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/target/classes/com/app/servicio/IArticulosServicio.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/570477e8-dcc2-494e-b558-883d5f1c3256/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/570477e8-dcc2-494e-b558-883d5f1c3256/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/570477e8-dcc2-494e-b558-883d5f1c3256/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/570477e8-dcc2-494e-b558-883d5f1c3256/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a3f2206b-64fb-4185-970f-f8f1a440c526.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a3f2206b-64fb-4185-970f-f8f1a440c526/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a3f2206b-64fb-4185-970f-f8f1a440c526/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a3f2206b-64fb-4185-970f-f8f1a440c526/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a3f2206b-64fb-4185-970f-f8f1a440c526/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/usuario/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/usuario/dao/Conexion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/usuario/dao/IUsuarioRespositorio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/usuario/dao/UsuarioRepositorioImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/usuario/dto/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/usuario/service/AdministracionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/usuario/service/IAdministracionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/app/usuario/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/app/usuario/dao/Conexion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/app/usuario/dao/IUsuarioRespositorio.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/app/usuario/dao/UsuarioRepositorioImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/app/usuario/dto/Usuario.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/app/usuario/service/AdministracionServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/app/usuario/service/IAdministracionService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PTS/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PTS/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PTS/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PTS/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PTS/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PTS/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PTS/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PTS/src/main/java/pool/dao/Conexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PTS/src/main/java/pool/dao/Conexion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PTS/src/main/java/pool/dao/ProductoIRepositorioImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PTS/src/main/java/pool/dao/ProductoIRepositorioImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PTS/target/classes/pool/dao/Conexion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PTS/target/classes/pool/dao/Conexion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PTS/target/classes/pool/dao/ProductoIRepositorioImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PTS/target/classes/pool/dao/ProductoIRepositorioImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pool_Trans/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pool_Trans/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pool_Trans/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pool_Trans/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_19_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pool_Trans/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pool_Trans/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_29.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pool_Trans/.idea/libraries/Maven__org_apache_commons_commons_dbcp2_2_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pool_Trans/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pool_Trans/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pool_Trans/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pool_Trans/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pool_Trans/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pool_Trans/Pool_Trans.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pool_Trans/Pool_Trans.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernateJPACriteria/hibernateJPACriteria.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosHIbernate/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosHIbernate/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosHIbernate/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosHIbernate/.idea/dataSources/f22d1882-3908-47f7-bba4-55644067b4f3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosHIbernate/.idea/dataSources/f22d1882-3908-47f7-bba4-55644067b4f3/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosHIbernate/.idea/dataSources/f22d1882-3908-47f7-bba4-55644067b4f3/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosHIbernate/.idea/dataSources/f22d1882-3908-47f7-bba4-55644067b4f3/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosHIbernate/.idea/dataSources/f22d1882-3908-47f7-bba4-55644067b4f3/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosHIbernate/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosHIbernate/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosHIbernate/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosHIbernate/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosHIbernate/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosHIbernate/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosHIbernate/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosHIbernate/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosHIbernate/src/main/java/app/entity/Usuarios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosHIbernate/src/main/java/app/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosHIbernate/src/main/java/app/repository/CrudRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosHIbernate/src/main/java/app/repository/UsuarioRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosHIbernate/src/main/java/app/service/AdministracionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosHIbernate/src/main/java/app/service/AdministracionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosHIbernate/src/main/java/app/util/EMF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosHIbernate/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosHIbernate/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosHIbernate/target/classes/app/main/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosHIbernate/target/classes/app/repository/CrudRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosHIbernate/target/classes/app/repository/UsuarioRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosHIbernate/target/classes/app/service/AdministracionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosHIbernate/target/classes/app/service/AdministracionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usuariosHIbernate/target/classes/app/util/EMF.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PTS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PTS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_19_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_19_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__com_sun_activation_jakarta_activation_2_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__com_sun_activation_jakarta_activation_2_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_4_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_4_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_2_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_2_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_3_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_3_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_2_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_2_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_3_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_3_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_30.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_core_3_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_core_3_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_3_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_3_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__org_glassfish_jaxb_txw2_3_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__org_glassfish_jaxb_txw2_3_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__org_hibernate_hibernate_core_jakarta_5_6_10_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__org_hibernate_hibernate_core_jakarta_5_6_10_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__org_jboss_jandex_2_4_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__org_jboss_jandex_2_4_2_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_3_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_3_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernateJPACriteria/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/570477e8-dcc2-494e-b558-883d5f1c3256/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/570477e8-dcc2-494e-b558-883d5f1c3256/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/570477e8-dcc2-494e-b558-883d5f1c3256/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/570477e8-dcc2-494e-b558-883d5f1c3256/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,20 +97,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.app.usuario.Main" />
@@ -193,6 +140,7 @@
       <option name="presentableId" value="Default" />
       <updated>1660515250620</updated>
       <workItem from="1660515252154" duration="4169000" />
+      <workItem from="1660776516320" duration="714000" />
     </task>
     <servers />
   </component>

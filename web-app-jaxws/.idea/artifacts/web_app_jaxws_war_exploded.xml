@@ -1,0 +1,99 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web-app-jaxws:war exploded">
+    <output-path>$PROJECT_DIR$/target/web-app-jaxws</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>web-app-jaxws</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="web-app-jaxws" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.jboss.remoting:jboss-remoting:5.0.25.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.4.1.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.xnio:xnio-api:3.7.7.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.threads:jboss-threads:2.3.0.Beta2" />
+          <element id="library" level="project" name="Maven: org.wildfly.common:wildfly-common:1.5.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.client:wildfly-client-config:1.0.1.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-asn1:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-audit:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-auth:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-auth-server:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-auth-server-deprecated:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-auth-server-http:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-auth-server-sasl:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-auth-util:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-base:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-client:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-credential-source-impl:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-provider-util:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-credential:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-credential-source-deprecated:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-credential-store:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-digest:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-http:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-http-basic:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-http-bearer:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-http-cert:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-http-deprecated:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-http-digest:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-http-form:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-http-spnego:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-http-sso:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-http-util:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-jacc:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-jaspi:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-json-util:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-jwt:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-keystore:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-mechanism:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-mechanism-digest:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-mechanism-gssapi:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-mechanism-http:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-mechanism-oauth2:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-mechanism-scram:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-password-impl:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-permission:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-realm:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-realm-jdbc:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-realm-ldap:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-realm-token:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-sasl:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-sasl-anonymous:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-sasl-auth-util:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-sasl-deprecated:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-sasl-digest:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-sasl-entity:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-sasl-external:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-sasl-gs2:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-sasl-gssapi:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-sasl-localuser:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-sasl-oauth2:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-sasl-otp:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-sasl-plain:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-sasl-scram:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-security-manager:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-security-manager-action:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-ssl:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-util:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-x500:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-x500-cert:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-x500-cert-acme:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-x500-cert-util:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-x500-deprecated:1.11.2.Final" />
+          <element id="library" level="project" name="Maven: org.wildfly.security:wildfly-elytron-x500-principal:1.11.2.Final" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/web-app-jaxws/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="web-app-jaxws/web/Web" />
+    </root>
+  </artifact>
+</component>
