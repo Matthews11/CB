@@ -7,7 +7,7 @@ import jakarta.jws.WebService;
 import java.util.Arrays;
 import java.util.List;
 //especifica ruta
-@WebService(endpointInterface = "com.webapp.jaxws.service.ServicesWs")
+@WebService(endpointInterface = "com.webapp.jaxws.services.ServicesWs")
 public class ServicesWsImpl implements ServicesWs{
 
     private int contador;

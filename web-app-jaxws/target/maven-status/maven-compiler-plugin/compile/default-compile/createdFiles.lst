@@ -1,0 +1,3 @@
+com\webapp\jaxws\models\Curso.class
+com\webapp\jaxws\services\ServicesWs.class
+com\webapp\jaxws\services\ServicesWsImpl.class

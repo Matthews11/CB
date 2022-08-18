@@ -9,8 +9,5 @@
         <module name="web-app-jaxws" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="web-app-jaxws" target="18" />
-    </bytecodeTargetLevel>
   </component>
 </project>
