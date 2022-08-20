@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1f334c68-5621-4347-a964-d29a43f41afd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cliente-ws-god.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/target.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/cliente_ws_god_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/cliente_ws_god_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_6_2_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_4_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_4_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_2_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_messaging_saaj_saaj_impl_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_stream_buffer_streambuffer_2_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_ws_jaxws_rt_4_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_2_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_mail_jakarta_mail_api_2_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_4_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_soap_jakarta_xml_soap_api_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_ws_jakarta_xml_ws_api_4_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_4_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_angus_angus_activation_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_angus_angus_mail_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_external_management_api_3_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_gmbal_gmbal_api_only_4_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_ha_ha_api_3_1_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_mimepull_mimepull_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_2_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/.idea/artifacts/cliente_ws_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/.idea/artifacts/cliente_ws_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_6_2_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_4_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_4_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_2_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/.idea/libraries/Maven__com_sun_xml_messaging_saaj_saaj_impl_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/.idea/libraries/Maven__com_sun_xml_stream_buffer_streambuffer_2_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/.idea/libraries/Maven__com_sun_xml_ws_jaxws_rt_4_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_2_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/.idea/libraries/Maven__jakarta_mail_jakarta_mail_api_2_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_4_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/.idea/libraries/Maven__jakarta_xml_soap_jakarta_xml_soap_api_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/.idea/libraries/Maven__jakarta_xml_ws_jakarta_xml_ws_api_4_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_4_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/.idea/libraries/Maven__org_eclipse_angus_angus_activation_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/.idea/libraries/Maven__org_eclipse_angus_angus_mail_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/.idea/libraries/Maven__org_glassfish_external_management_api_3_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/.idea/libraries/Maven__org_glassfish_gmbal_gmbal_api_only_4_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/.idea/libraries/Maven__org_glassfish_ha_ha_api_3_1_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/.idea/libraries/Maven__org_jvnet_mimepull_mimepull_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_2_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/cliente-ws.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/src/main/java/com/clientesws/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/target/classes/com/clientesws/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/target/classes/com/webapp/jaxws/services/Crear.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/target/classes/com/webapp/jaxws/services/CrearResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/target/classes/com/webapp/jaxws/services/Curso.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/target/classes/com/webapp/jaxws/services/Listar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/target/classes/com/webapp/jaxws/services/ListarResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/target/classes/com/webapp/jaxws/services/ObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/target/classes/com/webapp/jaxws/services/Saludar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/target/classes/com/webapp/jaxws/services/SaludarResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/target/classes/com/webapp/jaxws/services/ServicesWs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/target/classes/com/webapp/jaxws/services/ServicesWsImplService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/target/classes/com/webapp/jaxws/services/package-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/target/generated-sources/wsimport/com/webapp/jaxws/services/Crear.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/target/generated-sources/wsimport/com/webapp/jaxws/services/CrearResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/target/generated-sources/wsimport/com/webapp/jaxws/services/Curso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/target/generated-sources/wsimport/com/webapp/jaxws/services/Listar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/target/generated-sources/wsimport/com/webapp/jaxws/services/ListarResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/target/generated-sources/wsimport/com/webapp/jaxws/services/ObjectFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/target/generated-sources/wsimport/com/webapp/jaxws/services/Saludar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/target/generated-sources/wsimport/com/webapp/jaxws/services/SaludarResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/target/generated-sources/wsimport/com/webapp/jaxws/services/ServicesWs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/target/generated-sources/wsimport/com/webapp/jaxws/services/ServicesWsImplService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/target/generated-sources/wsimport/com/webapp/jaxws/services/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ws/target/jaxws/stale/.dbcb782215b02b634cb8fdb1143caf393c3d9a43" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DcSUy1wmDp1QFIXy8dClTplIvK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f334c68-5621-4347-a964-d29a43f41afd" name="Changes" comment="" />
+      <created>1660996900070</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660996900070</updated>
+      <workItem from="1660996901794" duration="128000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
