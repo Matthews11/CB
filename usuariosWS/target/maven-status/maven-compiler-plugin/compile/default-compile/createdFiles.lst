@@ -1,0 +1,6 @@
+org\uws\em\ProducerEntityManager.class
+org\uws\servicio\UsuarioServicioImpl.class
+org\uws\servicio\IServicio.class
+org\uws\Entity\Usuario.class
+org\uws\repositorios\IRepositorio.class
+org\uws\repositorios\UsuarioRepositorioImpl.class
