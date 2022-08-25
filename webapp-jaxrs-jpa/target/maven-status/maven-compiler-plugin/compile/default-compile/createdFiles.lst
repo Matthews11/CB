@@ -1,0 +1,8 @@
+com\webapp\jawrs\services\CursoService.class
+com\webapp\jawrs\models\Instructor.class
+com\webapp\jawrs\controllers\CursoController.class
+com\webapp\jawrs\PEM.class
+com\webapp\jawrs\services\CursoServiceImpl.class
+com\webapp\jawrs\models\Curso.class
+com\webapp\jawrs\repositories\CursoRepositoryImpl.class
+com\webapp\jawrs\repositories\CursoRepository.class
