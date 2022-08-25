@@ -1,0 +1,6 @@
+com\webapp\jaxws\jaas\models\Curso.class
+com\webapp\jaxws\jaas\ProducerEntityManager.class
+com\webapp\jaxws\jaas\repository\CursoRepository.class
+com\webapp\jaxws\jaas\services\CursoServicesWsImpl.class
+com\webapp\jaxws\jaas\repository\CursoRepositoryImpl.class
+com\webapp\jaxws\jaas\services\CursoServicesWs.class
