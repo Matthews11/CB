@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="administracionWS:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>administracionWS</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="administracionWS.war">
+      <element id="artifact" artifact-name="administracionWS:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+org\administracion\entity\Usuario.class
+org\administracion\servicio\AdministracionServicioImpl.class
+org\administracion\servicio\AdministracionServicio.class
+org\administracion\entity\Rol.class
+org\administracion\manager\ProducerEntityManager.class
+org\administracion\repositorio\IRepositorio.class
+org\administracion\repositorio\UsuarioRepositorioImpl.class
+org\administracion\repositorio\RolRepositorioImpl.class
