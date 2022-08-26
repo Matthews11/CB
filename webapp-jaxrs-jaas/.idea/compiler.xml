@@ -9,5 +9,8 @@
         <module name="webapp-jaxrs-jaas" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="webapp-jaxrs-jaas" target="18" />
+    </bytecodeTargetLevel>
   </component>
 </project>
