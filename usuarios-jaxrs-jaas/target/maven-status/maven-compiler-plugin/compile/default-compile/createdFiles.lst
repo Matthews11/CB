@@ -1,0 +1,10 @@
+org\usuarios\repositorio\RolRepositorioImpl.class
+org\usuarios\entity\Usuario.class
+org\usuarios\controller\UsuarioController.class
+org\usuarios\repositorio\UsuarioRepositorioImpl.class
+org\usuarios\servicio\administracionServiceImpl.class
+org\usuarios\controller\RolController.class
+org\usuarios\repositorio\IRepositorio.class
+org\usuarios\manager\ProducerEntityManager.class
+org\usuarios\entity\Rol.class
+org\usuarios\servicio\IAdministracionService.class
