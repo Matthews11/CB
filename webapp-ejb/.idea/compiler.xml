@@ -9,5 +9,8 @@
         <module name="webapp-ejb" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="webapp-ejb" target="18" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -9,5 +9,8 @@
         <module name="cliente-jaxrs-jaas" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cliente-jaxrs-jaas" target="18" />
+    </bytecodeTargetLevel>
   </component>
 </project>
