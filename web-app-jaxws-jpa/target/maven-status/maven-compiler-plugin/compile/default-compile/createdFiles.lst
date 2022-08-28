@@ -1,6 +1,0 @@
-com\webapp\jaxws\services\CursoServicesWsImpl.class
-com\webapp\jaxws\repository\CursoRepository.class
-com\webapp\jaxws\models\Curso.class
-com\webapp\jaxws\ProducerEntityManager.class
-com\webapp\jaxws\repository\CursoRepositoryImpl.class
-com\webapp\jaxws\services\CursoServicesWs.class
