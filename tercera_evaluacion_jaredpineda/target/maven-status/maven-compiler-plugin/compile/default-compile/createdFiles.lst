@@ -1,0 +1,10 @@
+org\ventas\controller\ClienteController.class
+org\ventas\servicio\AdministracionServicioImpl.class
+org\ventas\repositorio\ClienteRepositorioImpl.class
+org\ventas\controller\ProveedorController.class
+org\ventas\manager\ProducerEntityManager.class
+org\ventas\repositorio\IRepositorio.class
+org\ventas\entity\Cliente.class
+org\ventas\repositorio\ProveedorRepositorioImpl.class
+org\ventas\entity\Proveedor.class
+org\ventas\servicio\IAdministracionServicio.class
