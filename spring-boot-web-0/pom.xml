@@ -8,11 +8,11 @@
 		<version>2.7.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>spring-web</artifactId>
+	<groupId>com.app</groupId>
+	<artifactId>spring-boot-web-0</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-web</name>
-	<description>Demo project for Spring Boot</description>
+	<name>spring-boot-web-0</name>
+	<description>spring </description>
 	<properties>
 		<java.version>18</java.version>
 	</properties>
@@ -31,6 +31,11 @@
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
