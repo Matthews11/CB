@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="usuarios-jaxrs-jaas:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>usuarios-jaxrs-jaas</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="usuarios-jaxrs-jaas.war">
+      <element id="artifact" artifact-name="usuarios-jaxrs-jaas:war exploded" />
+    </root>
+  </artifact>
+</component>
