@@ -14,6 +14,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
+import javax.persistence.PrePersist;
+import javax.persistence.PreUpdate;
 import javax.persistence.Table;
 
 @Entity
@@ -118,6 +120,12 @@ public abstract class Persona implements Serializable {
 	public void setDireccion(Direccion direccion) {
 		this.direccion = direccion;
 	}
+	
+	@PrePersist
+    private void antesDePersistir(){this.fechaAlta=LocalDateTime.now();}
+    @PreUpdate
+    private void antesDeUpdate(){this.fechaAlta=LocalDateTime.now();}
+
 
 	@Override
 	public String toString() {

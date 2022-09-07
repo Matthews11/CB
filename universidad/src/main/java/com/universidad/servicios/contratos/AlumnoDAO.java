@@ -1,5 +1,7 @@
 package com.universidad.servicios.contratos;
 
-public interface AlumnoDAO extends PersonaDAO{
+import com.universidad.modelo.entidades.Persona;
 
+public interface AlumnoDAO extends PersonaDAO{
+	Iterable<Persona> buscarAlumnoPorNombreCarrera(String carrera);
 }

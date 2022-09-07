@@ -3,6 +3,7 @@ package com.universidad.servicios.implementaciones;
 import java.util.Optional;
 
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.universidad.servicios.contratos.GenericDAO;
@@ -10,7 +11,7 @@ import com.universidad.servicios.contratos.GenericDAO;
 public class GenericDAOImpl <E,R extends CrudRepository<E, Integer>> implements GenericDAO<E>{
 
 
-	private final R repo;
+	protected final R repo;
 	
 	public GenericDAOImpl(R repo) {
 		this.repo=repo;
@@ -31,7 +32,7 @@ public class GenericDAOImpl <E,R extends CrudRepository<E, Integer>> implements 
 	}
 
 	@Override
-	@Transactional
+	@Transactional(isolation = Isolation.DEFAULT)
 	public E crear(E e) {
 		// TODO Auto-generated method stub
 		return repo.save(e);
