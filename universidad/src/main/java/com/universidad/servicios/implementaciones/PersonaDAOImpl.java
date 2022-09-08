@@ -27,18 +27,20 @@ public class PersonaDAOImpl extends GenericDAOImpl<Persona, PersonaRepositorio> 
 		return Optional.ofNullable(repo.buscarPorNombreYApellido(nombre, apellido)).orElse(null);
 	}
 
+
 	@Override
 	@Transactional(readOnly = true)
-	public Optional<Persona> buscarPorNombreDni(String dni) {
+	public Optional<Persona> buscarPorDni(String dni) {
 		// TODO Auto-generated method stub
 		return Optional.ofNullable(repo.buscarPorNombreDni(dni)).orElse(null);
 	}
 
 	@Override
 	@Transactional(readOnly = true)
-	public Iterable<Persona> buscarPorApellido(String apellido) {
+	public Iterable<Persona> buscarPersonaPorApellido(String apellido) {
 		// TODO Auto-generated method stub
-		return  repo.buscarPorApellido(apellido);
+		return repo.buscarPorApellido(apellido);
+	
 	}
 	 
 }

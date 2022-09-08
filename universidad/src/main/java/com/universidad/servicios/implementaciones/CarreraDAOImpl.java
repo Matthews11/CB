@@ -38,6 +38,13 @@ public class CarreraDAOImpl extends GenericDAOImpl<Carrera,CarreraRepositorio> i
 		// TODO Auto-generated method stub
 		return repo.findByCantidadAniosAfter(anios);
 	}
+
+	@Override
+	@Transactional(readOnly = true)
+	public Iterable<Carrera> buscarCarreraPorProfesorNombreYApellido(String nombre, String apellido) {
+		// TODO Auto-generated method stub
+		return repo.buscarCarreraPorProfesorNombreYApellido(nombre, apellido);
+	}
 	
 	 
 }
