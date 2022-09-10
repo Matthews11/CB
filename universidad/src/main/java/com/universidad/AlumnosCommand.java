@@ -3,9 +3,9 @@ package com.universidad;
 import com.universidad.modelo.entidades.Alumno;
 import com.universidad.modelo.entidades.Carrera;
 import com.universidad.modelo.entidades.Persona;
-import com.universidad.servicios.contratos.CarreraDAO;
-import com.universidad.servicios.contratos.PersonaDAO;
-
+import com.universidad.servicio.contratos.AlumnoDAO;
+import com.universidad.servicio.contratos.CarreraDAO;
+import com.universidad.servicio.contratos.PersonaDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.CommandLineRunner;

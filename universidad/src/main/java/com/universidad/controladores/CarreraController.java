@@ -1,93 +1,86 @@
 package com.universidad.controladores;
 
 import com.universidad.exception.BadRequestException;
+import com.universidad.modelo.entidades.Aula;
 import com.universidad.modelo.entidades.Carrera;
-import com.universidad.servicios.contratos.CarreraDAO;
-import com.universidad.servicios.contratos.ProfesorDAO;
-
+import com.universidad.servicio.contratos.CarreraDAO;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
- 
 import java.util.List;
 import java.util.Optional;
 
 @RestController
 @RequestMapping("/carreras")
-public class CarreraController {
+public class CarreraController extends GenericController<Carrera,CarreraDAO>{
 
-    @Autowired
-    private ProfesorDAO pd;
-    private final CarreraDAO carreraDAO;
 
-    @Autowired
-    public CarreraController(CarreraDAO carreraDAO) {
-        this.carreraDAO = carreraDAO;
+  @Autowired
+    public CarreraController(CarreraDAO servicio) {
+        super(servicio);
+        nombreEntidad ="Carreras";
+
     }
 
-    @GetMapping(value = "/listar",
-            produces = MediaType.APPLICATION_JSON_VALUE)
-    public List<Carrera> obtenerTodos(){
-        List<Carrera> carreras = (List<Carrera>) carreraDAO.listar();
+    @GetMapping("/buscar-por-nombre")
+    public List<Carrera> buscarPorNombreContains(@RequestParam String nombre){
+      List<Carrera> carreras = (List<Carrera>) servicio.findCarreraByNombreContains(nombre);
+      if (carreras.isEmpty()){
+          throw new BadRequestException(String.format("No se econtraron carreas con el nombre %s",nombre));
+      }
+      return carreras;
+
+    }
+
+    @GetMapping("/buscar-por-nombre-ignore")
+    public List<Carrera> buscarPorNombreIgnorando(@RequestParam String nombre){
+        List<Carrera> carreras = (List<Carrera>) servicio.findCarreraByNombreContainsIgnoreCase(nombre);
         if (carreras.isEmpty()){
-            throw new BadRequestException("No exiten carreras");
+            throw new BadRequestException(String.format("No se econtraron carreas con el nombre %s",nombre));
         }
         return carreras;
     }
 
-    @GetMapping(value = "/obtener/{codigo}",
-            produces = MediaType.APPLICATION_JSON_VALUE)
-    public Carrera obtener(@PathVariable(value = "codigo",required = false)Integer id){
-        Optional<Carrera> carreraOptional = carreraDAO.obtener(id);
-        if (!carreraOptional.isPresent()){
-            throw new BadRequestException(String.format("La carrera con id %d no existe",id));
+    @GetMapping("/buscar-por-anios")
+    public List<Carrera> buscarPorAnios(@RequestParam Integer anios){
+        List<Carrera> carreras = (List<Carrera>) servicio.findCarreraByCantidadAniosAfter(anios);
+        if (carreras.isEmpty()){
+            throw new BadRequestException(String.format("No se econtraron carreas con el anio %s",anios));
         }
-        return carreraOptional.get();
+        return carreras;
     }
 
-    @PostMapping(value = "/crear",
-            produces = MediaType.APPLICATION_JSON_VALUE,
-            consumes = MediaType.APPLICATION_JSON_VALUE)
-    public Carrera altaCarrera(@RequestBody Carrera carrera){
-        if (carrera.getCantidadAnios()<0){
-            throw new BadRequestException("El campo cantidad de anios no puede ser negativo ");
-
+    @GetMapping("/buscar-por-nombre-apellido")
+    public List<Carrera> buscarCarreraPorProfesorNombreYApellido(@RequestParam String nombre, @RequestParam String apellido){
+        List<Carrera> carreras = (List<Carrera>) servicio.buscarCarreraPorProfesorNombreYApellido(nombre,apellido);
+        if (carreras.isEmpty()){
+            throw new BadRequestException(String.format("No se econtraron carreas con el nombre %s y con el %s",nombre,apellido));
         }
-        if (carrera.getCantidadMaterias()<0){
-            throw new BadRequestException("El campo cantidad de materias no puede ser negativo ");
-
-        }
-
-        return carreraDAO.crear(carrera);
+        return carreras;
     }
 
     @PutMapping(value = "modificar/{id}",
             consumes = MediaType.APPLICATION_JSON_VALUE,
             produces = MediaType.APPLICATION_JSON_VALUE)
     public Carrera actualizar(@PathVariable Integer id, @RequestBody Carrera carrera){
-        Carrera  carrera1 =null;
-        Optional<Carrera> obtener =carreraDAO.obtener(id);
+        Carrera  carreraModificada =null;
+        Optional<Carrera> obtener =servicio.obtener(id);
 
         if (obtener.isPresent()){
-            carrera1 = obtener.get();
-            carrera1.setNombre(carrera.getNombre());
-            carrera1.setCantidadAnios(carrera.getCantidadAnios());
-            carrera1.setCantidadMaterias(carrera.getCantidadMaterias());
-
-             carreraDAO.crear(carrera1);
+            carreraModificada = obtener.get();
+            carreraModificada.setNombre(carrera.getNombre());
+            carreraModificada.setCantidadAnios(carrera.getCantidadAnios());
+            carreraModificada.setCantidadMaterias(carrera.getCantidadMaterias());
+            carreraModificada.setAlumnos(carrera.getAlumnos());
+            carreraModificada.setProfesors(carrera.getProfesors());
+            servicio.crear(carreraModificada);
 
         }else {
             throw new BadRequestException(String.format("La carrera con el id %d no existe",id));
         }
-        return carrera1;
+        return carreraModificada;
     }
-
-
-    @DeleteMapping("/eliminar/{id}")
-    public void eliminar(@PathVariable Integer id){
-        carreraDAO.eliminar(id);
-    }
-
 
 }

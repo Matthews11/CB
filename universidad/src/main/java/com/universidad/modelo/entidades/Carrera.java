@@ -1,163 +1,152 @@
 package com.universidad.modelo.entidades;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
+import javax.persistence.*;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.util.Objects;
 import java.util.Set;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
-import javax.persistence.PrePersist;
-import javax.persistence.PreUpdate;
-import javax.persistence.Table;
-
 @Entity
-@Table(name = "carreras")
-public class Carrera implements Serializable {
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = -8175176877169278838L;
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Integer id;
+@Table( name="carreras")
+public class Carrera implements Serializable   {
 
-	@Column(nullable = false, unique = true, length = 80)
-	private String nombre;
+    @Id
+    @GeneratedValue( strategy = GenerationType.IDENTITY)
+    private Integer id;
 
-	@Column(name = "cantidad_materias")
-	private Integer cantidadMaterias;
+    @Column(nullable = false, unique = true, length = 80)
+    @NotEmpty
+    private String nombre;
 
-	@Column(name = "cantidad_anios")
-	private Integer cantidadAnios;
+    @Column(name ="cantidad_materias")
+    @NotNull
+    private Integer cantidadMaterias;
 
-	@Column(name = "fecha_alta")
-	private LocalDateTime fechaAlta;
+    @Column(name = "cantidad_anios")
+    @NotNull
+    private Integer cantidadAnios;
 
-	@Column(name = "fecha_modificada")
-	private LocalDateTime fechaModificada;
+    @Column(name = "fecha_alta")
+    private LocalDateTime fechaAlta;
 
-	@OneToMany(mappedBy = "carrera", fetch = FetchType.LAZY)
-	private Set<Alumno> alumnos;
+    @Column(name = "fecha_modificada")
+    private LocalDateTime fechaModificada;
+    @JsonIgnoreProperties("carrera")
+    @OneToMany( mappedBy = "carrera",fetch = FetchType.EAGER)
+    private Set<Alumno>alumnos;
+    @JsonIgnoreProperties("carreras")
+    @ManyToMany( mappedBy = "carreras",fetch = FetchType.EAGER)
+    private Set<Profesor>profesors;
 
-	@OneToMany(mappedBy = "carreras", fetch = FetchType.LAZY)
-	private Set<Profesor> profesores;
+    public Carrera() {
+    }
 
-	public Carrera() {
-		super();
-	}
+    public Carrera(Integer id, String nombre, Integer cantidadMaterias, Integer cantidadAnios) {
+        this.id = id;
+        this.nombre = nombre;
+        this.cantidadMaterias = cantidadMaterias;
+        this.cantidadAnios = cantidadAnios;
+    }
 
-	public Carrera(Integer id, String nombre, Integer cantidadMaterias, Integer cantidadAnios) {
-		super();
-		this.id = id;
-		this.nombre = nombre;
-		this.cantidadMaterias = cantidadMaterias;
-		this.cantidadAnios = cantidadAnios; 
-	}
+    public Integer getId() {
+        return id;
+    }
 
-	public Integer getId() {
-		return id;
-	}
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
-	public void setId(Integer id) {
-		this.id = id;
-	}
+    public String getNombre() {
+        return nombre;
+    }
 
-	public String getNombre() {
-		return nombre;
-	}
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
 
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
-	}
+    public Integer getCantidadMaterias() {
+        return cantidadMaterias;
+    }
 
-	public Integer getCantidadMaterias() {
-		return cantidadMaterias;
-	}
+    public void setCantidadMaterias(Integer cantidadMaterias) {
+        this.cantidadMaterias = cantidadMaterias;
+    }
 
-	public void setCantidadMaterias(Integer cantidadMaterias) {
-		this.cantidadMaterias = cantidadMaterias;
-	}
+    public Integer getCantidadAnios() {
+        return cantidadAnios;
+    }
 
-	public Integer getCantidadAnios() {
-		return cantidadAnios;
-	}
+    public void setCantidadAnios(Integer cantidadAnios) {
+        this.cantidadAnios = cantidadAnios;
+    }
 
-	public void setCantidadAnios(Integer cantidadAnios) {
-		this.cantidadAnios = cantidadAnios;
-	}
+    public LocalDateTime getFechaAlta() {
+        return fechaAlta;
+    }
 
-	public LocalDateTime getFechaAlta() {
-		return fechaAlta;
-	}
+    public void setFechaAlta(LocalDateTime fechaAlta) {
+        this.fechaAlta = fechaAlta;
+    }
 
-	public void setFechaAlta(LocalDateTime fechaAlta) {
-		this.fechaAlta = fechaAlta;
-	}
+    public LocalDateTime getFechaModificada() {
+        return fechaModificada;
+    }
 
-	public LocalDateTime getFechaModificada() {
-		return fechaModificada;
-	}
+    public void setFechaModificada(LocalDateTime fechaModificada) {
+        this.fechaModificada = fechaModificada;
+    }
 
-	public void setFechaModificada(LocalDateTime fechaModificada) {
-		this.fechaModificada = fechaModificada;
-	}
-	
-	
+//    @JsonManagedReference
+    public Set<Alumno> getAlumnos() {
+        return alumnos;
+    }
 
-	public Set<Alumno> getAlumnos() {
-		return alumnos;
-	}
+    public void setAlumnos(Set<Alumno> alumnos) {
+        this.alumnos = alumnos;
+    }
 
-	public void setAlumnos(Set<Alumno> alumnos) {
-		this.alumnos = alumnos;
-	}
+    public Set<Profesor> getProfesors() {
+        return profesors;
+    }
 
-	public Set<Profesor> getProfesores() {
-		return profesores;
-	}
+    public void setProfesors(Set<Profesor> profesors) {
+        this.profesors = profesors;
+    }
 
-	public void setProfesores(Set<Profesor> profesores) {
-		this.profesores = profesores;
-	}
+    @PrePersist
+    private void antesDePersistir(){this.fechaAlta=LocalDateTime.now();}
+    @PreUpdate
+    private void antesDeUpdate(){this.fechaModificada=LocalDateTime.now();}
 
-	@PrePersist
-	private void antesDePersistir() {
-		this.fechaAlta = LocalDateTime.now();
-	}
 
-	@PreUpdate
-	private void antesDeUpdate() {
-		this.fechaModificada = LocalDateTime.now();
-	}
+    @Override
+    public String toString() {
+        return "Carrera{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", cantidadMaterias=" + cantidadMaterias +
+                ", cantidadAnios=" + cantidadAnios +
+                ", fechaAlta=" + fechaAlta +
+                ", fechaModificada=" + fechaModificada +
+                '}';
+    }
 
-	@Override
-	public String toString() {
-		return "Carrera [id=" + id + ", nombre=" + nombre + ", cantidadMaterias=" + cantidadMaterias
-				+ ", cantidadAnios=" + cantidadAnios + ", fechaAlta=" + fechaAlta + ", fechaModificada="
-				+ fechaModificada + "]";
-	}
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Carrera carrera = (Carrera) o;
+        return id.equals(carrera.id) && nombre.equals(carrera.nombre);
+    }
 
-	@Override
-	public int hashCode() {
-		return Objects.hash(id, nombre);
-	}
-
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Carrera other = (Carrera) obj;
-		return Objects.equals(id, other.id) && Objects.equals(nombre, other.nombre);
-	}
-
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, nombre);
+    }
 }

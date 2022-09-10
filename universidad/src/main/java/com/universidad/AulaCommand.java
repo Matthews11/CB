@@ -4,9 +4,8 @@ import com.universidad.modelo.entidades.Aula;
 import com.universidad.modelo.entidades.Direccion;
 import com.universidad.modelo.entidades.Pabellon;
 import com.universidad.modelo.entidades.enumeradores.Pizarron;
-import com.universidad.servicios.contratos.AulaDAO;
-import com.universidad.servicios.contratos.PabellonDAO;
-
+import com.universidad.servicio.contratos.AulaDAO;
+import com.universidad.servicio.contratos.PabellonDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -25,7 +24,7 @@ public class AulaCommand implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 //        Optional<Pabellon> pabellonOptional = pabellonDAO.obtener(3);
-//        Aula aula = new Aula(null,3,"3.3",30, Pizarron.PIZARRA_TIZA);
+//        Aula aula = new Aula(null,4,"4.4",40, Pizarron.PIZARRA_TIZA);
 //        aulaDAO.crear(aula);
 //        aula.setPabellon(pabellonOptional.get());
 //        aulaDAO.crear(aula);

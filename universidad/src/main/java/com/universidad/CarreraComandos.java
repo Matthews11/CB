@@ -2,8 +2,9 @@ package com.universidad;
 
 import com.universidad.modelo.entidades.Carrera;
 import com.universidad.modelo.entidades.Persona;
-import com.universidad.servicios.contratos.CarreraDAO;
-
+import com.universidad.modelo.entidades.enumeradores.TipoEmplado;
+import com.universidad.servicio.contratos.CarreraDAO;
+import com.universidad.servicio.contratos.EmpleadoDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -41,7 +42,7 @@ public class CarreraComandos implements CommandLineRunner {
 //        servicio.crear(LicAdmminEmp);
 //        servicio.crear(LicDataScience);
 //        servicio.crear(LicIdiomas);
-//
+
 //servicio.listar().forEach(System.out::println);
 
 //        List< Carrera> carreras = (List<Carrera>) servicio.findCarreraByNombreContains("sistemas");
@@ -58,6 +59,7 @@ public class CarreraComandos implements CommandLineRunner {
 //        Iterable<Carrera> carreras= servicio.buscarCarreraPorProfesorNombreYApellido
 //                ("Marlon","Ing");
 //        carreras.forEach(System.out::println);
+//                servicio.listar().forEach(System.out::println);
 
     }
 
